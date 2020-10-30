@@ -20,7 +20,10 @@
         </activity>
         <activity
             android:name=".FireType"
-            android:theme="@style/AppTheme.NoActionBar"
+            android:label="Fire (GEN VI - VIII)"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme"
+
             >
         </activity>
     </application>
