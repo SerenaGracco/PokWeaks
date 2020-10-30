@@ -3,4 +3,6 @@
     <color name="colorPrimary">#c22016</color>
     <color name="colorPrimaryDark">#9a2118</color>
     <color name="colorAccent">#d81b60</color>
+    <color name="Dragon">#8c33e5</color>
+    <color name="Rock">#aca149</color>
 </resources>
