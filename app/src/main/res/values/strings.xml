@@ -1,10 +1,5 @@
 <resources>
-    <string name="app_name">PokéWeaks</string>
+    <string name="app_name">PokéDex</string>
 
-    <string-array name="tipi">
-        <item> Fuoco </item>
-        <item> Acqua </item>
-        <item> Erba </item>
-        <item> Elettro </item>
-    </string-array>
+
 </resources>

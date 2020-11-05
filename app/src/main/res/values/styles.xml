@@ -10,12 +10,28 @@
     </style>
     
     
-    <style name="AppTheme.NoActionBar">
-        <item name="windowActionBar"> false </item>
-        <item name="windowNoTitle"> true  </item>
+    <style name="AppTheme.NoActionBarFire">
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/Fire</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
 
+    <style name="AppTheme.NoActionBarWater">
+        <item name="colorPrimary">@color/WaterDark</item>
+        <item name="colorPrimaryDark">@color/Water</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
 
+    <style name="AppTheme.NoActionBarGrass">
+        <item name="colorPrimary">@android:color/holo_green_dark</item>
+        <item name="colorPrimaryDark">@android:color/holo_green_light</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
 
+    <style name="AppTheme.NoActionBarFighting">
+        <item name="colorPrimary">@color/FightDark</item>
+        <item name="colorPrimaryDark">@color/Fighting</item>
+        <item name="colorAccent">@color/colorAccent</item>
     </style>
 
     <style name="PokèWeaks" parent="AppTheme" >

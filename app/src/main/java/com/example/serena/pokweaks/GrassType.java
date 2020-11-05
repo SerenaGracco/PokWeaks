@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 
-public class FireType extends AppCompatActivity {
+public class GrassType extends AppCompatActivity {
 
     Button mBtnWater1;
     Button mBtnWater2;
@@ -19,7 +19,7 @@ public class FireType extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_fire_type);
+        setContentView(R.layout.activity_grass_type);
 
         mBtnWater1 = (Button) findViewById(R.id.buttonWater1);
         mBtnWater2 = (Button) findViewById(R.id.buttonWater2);
@@ -28,7 +28,7 @@ public class FireType extends AppCompatActivity {
         mBtnWater1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intentLoadNewActivity = new Intent(com.example.serena.pokweaks.FireType.this, WaterType.class);
+                Intent intentLoadNewActivity = new Intent(com.example.serena.pokweaks.GrassType.this, WaterType.class);
                 startActivity(intentLoadNewActivity);
             }
 
@@ -37,11 +37,14 @@ public class FireType extends AppCompatActivity {
         mBtnWater2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intentLoadNewActivity = new Intent(com.example.serena.pokweaks.FireType.this, WaterType.class);
+                Intent intentLoadNewActivity = new Intent(com.example.serena.pokweaks.GrassType.this, WaterType.class);
                 startActivity(intentLoadNewActivity);
             }
 
         });
+
+
+
 
 
 

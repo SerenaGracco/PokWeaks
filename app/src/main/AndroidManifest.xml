@@ -20,12 +20,28 @@
         </activity>
         <activity
             android:name=".FireType"
-            android:label="Fire (GEN VI - VIII)"
+            android:label="Fire (Gen VI - VIII)"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme"
+            android:theme="@style/AppTheme.NoActionBarFire" />
+        <activity
+            android:name=".WaterType"
+            android:label="Water (Gen II - VIII)"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBarWater" />
+        <activity
+            android:name=".GrassType"
+            android:label="Grass (Gen II - VIII)"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBarGrass" />
+        <activity
+            android:name=".FightingType"
+            android:label="Fighting (Gen VI - VIII)"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBarFighting" />
 
-            >
-        </activity>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
